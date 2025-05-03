@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat FURIA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-wrapper">
+    <div class="chat-header">🔥 Chat da Torcida FURIA</div>
+    <div id="chat" class="chat-box"></div>
+    <div class="button-options">
+      <button onclick="handleOption('jogadores')">👥 Jogadores</button>
+      <button onclick="handleOption('Loja')">🛒 Loja</button>
+      <button onclick="handleOption('agenda')">📅 Agenda</button>
+      <button onclick="handleOption('live')">🎮 Placar ao vivo</button>
+      <button onclick="handleOption('social')">📱 Redes Sociais</button>
+      <button onclick="window.open('https://api.whatsapp.com/send/?phone=5511993404466', '_blank')">💬 Contato Inteligente</button>
+    </div>
+    <input type="text" id="user-input" placeholder="Digite sua pergunta..." onkeydown="handleKey(event)" />
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
