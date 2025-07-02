@@ -67,14 +67,4 @@ furia-chatbot/
 
 ---
 
-## 🙋‍♂️ Autor
 
-Desenvolvido por Matheus Maciel  
-Curso: Análise e Desenvolvimento de Sistemas – UCL  
-Contato: [LinkedIn](https://linkedin.com/in/matheusmaciel) | [Email](mailto:seuemail@example.com)
-
----
-
-## 📄 Licença
-
-MIT License
